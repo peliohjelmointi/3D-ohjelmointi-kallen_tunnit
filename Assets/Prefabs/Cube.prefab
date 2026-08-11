@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 601316591258937298}
   - component: {fileID: 4552992834954998719}
   - component: {fileID: 1910755208989101576}
+  - component: {fileID: 212265419762286788}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -112,3 +113,17 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &212265419762286788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6991784530150445651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b55703293438b84da3b0f5ec358cf26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Cube
+  defaultMaterial: {fileID: 2100000, guid: bb81559ed4885c241857aaafc1a2ddeb, type: 2}
+  selectedMaterial: {fileID: 2100000, guid: 9c497aa64e7819f489fccd3f46d51472, type: 2}
