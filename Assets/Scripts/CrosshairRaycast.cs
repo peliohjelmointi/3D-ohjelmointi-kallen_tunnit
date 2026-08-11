@@ -17,7 +17,7 @@ public class CrosshairRaycast : MonoBehaviour
         if (Physics.Raycast(ray, out RaycastHit hit, rayDistance, hitLayers))
         {
             //jos osuttiin johonkin, eli raycast palautti true:
-            Debug.Log("Osutiin: " + hit.collider.name);            
+            //Debug.Log("Osutiin: " + hit.collider.name);            
         }
 
         //myös Screen-luokkaa voi käyttää jos haluaa keskelle ruutua
